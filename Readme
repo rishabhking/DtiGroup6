@@ -1,0 +1,22 @@
+⚔️ Coding Sphere
+Coding Sphere is a competitive programming duel platform that enhances individual Codeforces duels with real-time comparisons, intuitive interfaces, and improved fairness. Whether you're looking to challenge friends, rivals, or yourself, Coding Sphere makes head-to-head contests more engaging and meaningful.
+
+🚀 Features
+🔗 Codeforces Integration: Connects seamlessly with Codeforces handles to fetch user data and problem sets.
+
+⚔️ Duel System: Create or join coding duels between two users with synchronized problem sets and timers.
+
+📊 Real-time Scoreboard: Live tracking of submissions, verdicts, and standings during duels.
+
+🧠 Fair Problem Selection: Smart algorithm to select problems with balanced difficulty based on users’ rating history.
+
+📈 Performance Insights: Post-duel analysis with accuracy rate, time to first solve, and attempted vs solved problems.
+
+🛠️ Tech Stack
+Frontend: React + Tailwind CSS
+
+Backend: Node.js / Express
+
+Database: MongoDB
+
+APIs: Codeforces Public API

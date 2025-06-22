@@ -197,7 +197,6 @@ const Play = () => {
       for (const problem of problems) {
         const problemKey = `${problem.contestId}${problem.index}`;
         
-        // Ensure the problemKey exists in updatedSolvedProblems
         if (!updatedSolvedProblems[problemKey]) {
           updatedSolvedProblems[problemKey] = {};
           handlesToCheck.forEach(h => {

@@ -39,23 +39,15 @@ cd coding-sphere
 
 ### 2️⃣ Setup the Backend
 ```bash
-Copy
-Edit
 cd server
 npm install
 
 
 Create a .env file in the server/ directory:
-
-bash
-Copy
-Edit
 touch .env
 Add the following environment variables inside .env:
 
 env
-Copy
-Edit
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 
@@ -64,8 +56,6 @@ npm start
 ```
 ### 3️⃣ Setup the Frontend
 ```bash
-Copy
-Edit
 cd ../client
 npm install
 npm start

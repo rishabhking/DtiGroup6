@@ -60,7 +60,7 @@ cd ../client
 npm install
 npm start
 ```
-4️⃣ Access the App
+###4️⃣ Access the App
 Visit the app in your browser:
 ```bash
 http://localhost:3000

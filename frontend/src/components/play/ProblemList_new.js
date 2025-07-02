@@ -11,7 +11,7 @@ import {
   Link as MuiLink
 } from '@mui/material';
 import { Launch as LaunchIcon } from '@mui/icons-material';
-
+// list for the problems
 const ProblemList = ({ problems, solvedProblems, onBackClick, isDuel }) => {
   const theme = useTheme();
 

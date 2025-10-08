@@ -68,6 +68,7 @@ const Header = () => {
     { text: 'Home', icon: <HomeIcon />, path: '/' },
     { text: 'Practice', icon: <CodeIcon />, path: '/practice' },
     { text: 'Duels', icon: <AssignmentIcon />, path: '/duel' },
+    { text: 'Problems', icon: <AssignmentIcon />, path: '/problems' },
   ];
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', width: 240 }}>

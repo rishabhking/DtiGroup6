@@ -2,18 +2,15 @@ import mongoose from 'mongoose';
 
 const clearDuelsFromCorrectDB = async () => {
   try {
-    // Connect to the correct MongoDB database
     await mongoose.connect('mongodb://localhost:27017/codingsphere3');
     console.log('Connected to MongoDB (codingsphere3 database)');
     
-    // List all collections
     const collections = await mongoose.connection.db.listCollections().toArray();
     console.log('Collections in the database:');
     collections.forEach(collection => {
       console.log(`- ${collection.name}`);
     });
     
-    // Check duels collection specifically
     const duelsCollection = mongoose.connection.db.collection('duels');
     const duelCount = await duelsCollection.countDocuments();
     console.log(`\nDocuments in 'duels' collection: ${duelCount}`);
